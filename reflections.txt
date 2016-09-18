@@ -1,0 +1,5 @@
+git init == initialize git repository in current directory
+
+git status == see status of current git repository
+
+git log  == see list of commits in current repository

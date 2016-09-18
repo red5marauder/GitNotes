@@ -10,3 +10,5 @@ git config user.name "username"  ------------\
                                              needed for commit to register
 git config user.email "someone@email.com"---/
 
+git add .   == add all files must be run after changing a file
+git commit  ==commit changes

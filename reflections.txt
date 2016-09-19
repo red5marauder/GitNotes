@@ -12,3 +12,29 @@ git config user.email "someone@email.com"---/
 
 git add .   == add all files must be run after changing a file
 git commit  ==commit changes
+
+git diff id1 id2 === show diferences between files in commit with id1 and id2
+
+git diff ==== show differences in staging area and working directory
+
+git diff --staged == show differences in staging area and repository
+
+git reset --hard  == discard changes in staging area and working directory, NON -REVERSIBLE
+
+git checkout master  == leave detached head state, return to most recent commit
+
+git branch <branchname>  === create new branch
+
+git log --graph --oneline master <branch name> == shows graphs of commits and their precedence.
+
+git merge <master branch> <child branch> == merge child branch and master branch into current branch
+
+git show <commit id> shows difference between a commit and its parent.  especially useful after merging two branches.
+
+adding remote repository on github
+git remote add <repo name> <repo url>
+git remote == reply with repo name
+git remote -v == verbose reply
+
+git push <reponame> master == push master branch to repo name
+
